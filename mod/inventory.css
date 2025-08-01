@@ -17,7 +17,7 @@ p.listitemrow b {
 }
 
 p.listitemrow a[href*="action=activate"],
-p.listitemrow a[href*="action=select"] {
+p.listitemrow a[href*="action=hselect"] {
     display: block;
     font-size: 11px;
 }
