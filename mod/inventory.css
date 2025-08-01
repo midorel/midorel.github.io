@@ -16,7 +16,8 @@ p.listitemrow b {
     color: var(--global_font);
 }
 
-p.listitemrow a[href*="action=activate"] {
+p.listitemrow a[href*="action=activate"],
+p.listitemrow a[href*="action=select"] {
     display: block;
     font-size: 11px;
 }
