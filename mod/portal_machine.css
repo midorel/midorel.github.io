@@ -11,6 +11,7 @@
 	pointer-events: none;
 }
 
+.frameitembg .oberirdisch > span.location[data-gebiet="Alvor - Grüner Hang"]:after { content: "86 126"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Brondor - Der Fluss ins Meer"]:after { content: "129 90"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Die Felseninsel"]:after { content: "144 126"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Dorea - Land der Geysire"]:after { content: "118 124"; }
