@@ -1,4 +1,4 @@
-.frameitembg a.location:after{
+.frameitembg a.location::after{
 	display: inline-block;
 	background: black;
 	color: var(--blauer_indicator);
@@ -11,42 +11,42 @@
 	font-weight: bold;
 }
 
-.frameitembg a.location[title="Konlir - Die immergrünen Wiesen"]:after { content: "101 100"; }
-.frameitembg a.location[title="Anatubien - Der Wald der Akademie"]:after { content: "85 102"; }
-.frameitembg a.location[title="Bank aller Wesen"]:after { content: "92 105"; color: lime; }
-.frameitembg a.location[title="Reikan - Die Trockenebene"]:after { content: "97 108"; }
-.frameitembg a.location[title="Das Tal der Ruinen"]:after { content: "93 96";}
-.frameitembg a.location[title="Das vergessene Tal"]:after { content: "81 94"; }
-.frameitembg a.location[title="Mentoran - Die Oase"]:after { content: "99 115";}
-.frameitembg a.location[title="Narubia - Die Nebelbank"]:after { content: "501 51"; }
-.frameitembg a.location[title="Nawor - Die Kakteenebene"]:after { content: "103 110"; }
-.frameitembg a.location[title="Buran - Der Westbereich"]:after { content: "80 87"; }
-.frameitembg a.location[title="Sutranien - Die kühle Ebene"]:after { content: "71 92"; }
-.frameitembg a.location[title="Hewien - Kantige Felsen"]:after { content: "92 90"; }
-.frameitembg a.location[title="Orewu - Der Salzsee"]:after { content: "108 114"; }
-.frameitembg a.location[title="Das Casino von Ferdolien"]:after { content: "100 94"; color: lime; }
-.frameitembg a.location[title="Kanobien - Der Wasserfall"]:after { content: "75 99";}
-.frameitembg a.location[title="Terasi - Der Fluss"]:after { content: "66 111"; }
-.frameitembg a.location[title="Lodradon - Der organische Turm"]:after { content: "114 76"; }
-.frameitembg a.location[title="Terasi - Der rauschende Fluss"]:after { content: "73 126"; }
+.frameitembg a.location[title="Konlir - Die immergrünen Wiesen"]::after { content: "101 100"; }
+.frameitembg a.location[title="Anatubien - Der Wald der Akademie"]::after { content: "85 102"; }
+.frameitembg a.location[title="Bank aller Wesen"]::after { content: "92 105"; color: lime; }
+.frameitembg a.location[title="Reikan - Die Trockenebene"]::after { content: "97 108"; }
+.frameitembg a.location[title="Das Tal der Ruinen"]::after { content: "93 96";}
+.frameitembg a.location[title="Das vergessene Tal"]::after { content: "81 94"; }
+.frameitembg a.location[title="Mentoran - Die Oase"]::after { content: "99 115";}
+.frameitembg a.location[title="Narubia - Die Nebelbank"]::after { content: "501 51"; }
+.frameitembg a.location[title="Nawor - Die Kakteenebene"]::after { content: "103 110"; }
+.frameitembg a.location[title="Buran - Der Westbereich"]::after { content: "80 87"; }
+.frameitembg a.location[title="Sutranien - Die kühle Ebene"]::after { content: "71 92"; }
+.frameitembg a.location[title="Hewien - Kantige Felsen"]::after { content: "92 90"; }
+.frameitembg a.location[title="Orewu - Der Salzsee"]::after { content: "108 114"; }
+.frameitembg a.location[title="Das Casino von Ferdolien"]::after { content: "100 94"; color: lime; }
+.frameitembg a.location[title="Kanobien - Der Wasserfall"]::after { content: "75 99";}
+.frameitembg a.location[title="Terasi - Der Fluss"]::after { content: "66 111"; }
+.frameitembg a.location[title="Lodradon - Der organische Turm"]::after { content: "114 76"; }
+.frameitembg a.location[title="Terasi - Der rauschende Fluss"]::after { content: "73 126"; }
 
 /* falls goldene flöte verfügbar */
-.frameitembg a > img:after {
+.frameitembg p.listrow > a::after {
 	display: inline-block;
 	background: black;
 	color: var(--blauer_indicator);
-	width: 40px;
-	margin-right: -40px;
+	width: 50px;
+	margin-right: -45px;
 	position: relative;
-	left: -47px;
-	top: -9px;
-	font-size: 10px;
+	left: -60px;
+	top: -12px;
+	font-size: 11px;
 	font-weight: bold;
 }
 
-.frameitembg a > img[alt="Laree"]:after { content: "55 76"; }
-.frameitembg a > img[alt="Tal der Ruinen"]:after { content: "92 99"; }
-.frameitembg a > img[alt="Wilisien"]:after { content: "111 83"; }
-.frameitembg a > img[alt="Delos"]:after { content: "66 90"; }
-.frameitembg a > img[alt="Mentoran"]:after { content: "99 118"; }
-.frameitembg a > img[alt="Salthos"]:after { content: "108 134"; }
+.frameitembg p.listrow > a[title="Laree"]::after { content: "55 76"; }
+.frameitembg p.listrow > a[title="Tal der Ruinen"]::after { content: "92 99"; }
+.frameitembg p.listrow > a[title="Wilisien"]::after { content: "111 83"; }
+.frameitembg p.listrow > a[title="Delos"]::after { content: "66 90"; }
+.frameitembg p.listrow > a[title="Mentoran"]::after { content: "99 118"; }
+.frameitembg p.listrow > a[title="Salthos"]::after { content: "108 134"; }
