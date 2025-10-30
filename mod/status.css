@@ -512,49 +512,7 @@
 #listrow_status span span[title$='(Noch 9 NPCs)']:after { content:' 9x'; }
 #listrow_status span span[title$='(Noch 10 NPCs)']:after { content:' 10x'; }
 
-/* Blinken bei 5 minuten Restzeit */
-#listrow_status span span[title$='(Noch 5 Minuten)']:after,
-#listrow_status span span[title$='(5 Minuten)']:after {
-    content:' 5m';
-    -moz-transition:all 0.5s ease-in-out;
-    -webkit-transition:all 0.5s ease-in-out;
-    -o-transition:all 0.5s ease-in-out;
-    -ms-transition:all 0.5s ease-in-out;
-    transition:all 0.5s ease-in-out;
-    -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
-    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
-    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
-    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
-}
-
-#listrow_status span span[title$='(Noch 4 Minuten)']:after,
-#listrow_status span span[title$='(4 Minuten)']:after {
-    content:' 4m';
-    -moz-transition:all 0.5s ease-in-out;
-    -webkit-transition:all 0.5s ease-in-out;
-    -o-transition:all 0.5s ease-in-out;
-    -ms-transition:all 0.5s ease-in-out;
-    transition:all 0.5s ease-in-out;
-    -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
-    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
-    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
-    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
-}
-
-#listrow_status span span[title$='(Noch 3 Minuten)']:after,
-#listrow_status span span[title$='(3 Minuten)']:after {
-    content:' 3m';
-    -moz-transition:all 0.5s ease-in-out;
-    -webkit-transition:all 0.5s ease-in-out;
-    -o-transition:all 0.5s ease-in-out;
-    -ms-transition:all 0.5s ease-in-out;
-    transition:all 0.5s ease-in-out;
-    -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
-    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
-    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
-    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
-}
-
+/* Blinken bei 2 Minuten Restzeit */
 #listrow_status span span[title$='(Noch 2 Minuten)']:after,
 #listrow_status span span[title$='(2 Minuten)']:after {
     content:' 2m';
