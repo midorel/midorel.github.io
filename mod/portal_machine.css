@@ -1,4 +1,5 @@
-.frameitembg span.location:not(.unterirdisch, .portalstab):after {
+.frameitembg p.oberirdisch > span.location::after,
+.frameitembg p.apparat > span.location::after {
 	display: inline-block;
 	background: black;
 	color: var(--blauer_indicator);
