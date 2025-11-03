@@ -31,7 +31,12 @@
 .frameitembg a.location[title="Terasi - Der rauschende Fluss"]::after { content: "73 126"; }
 
 /* falls goldene flöte verfügbar */
-.frameitembg > p.listrow:not(#listrow_money) > a:not(.location)::after {
+.frameitembg > p.listrow > a[title="Laree"]::after,
+.frameitembg > p.listrow > a[title="Tal der Ruinen"]::after,
+.frameitembg > p.listrow > a[title="Wilisien"]::after,
+.frameitembg > p.listrow > a[title="Delos"]::after,
+.frameitembg > p.listrow > a[title="Mentoran"]::after,
+.frameitembg > p.listrow > a[title="Salthos"]::after {
 	display: inline-block;
 	background: black;
 	color: var(--blauer_indicator);
