@@ -215,9 +215,9 @@
 #listrow_status span span[title$='(Noch 8 Minuten)']:after { content:' 8m'; }
 #listrow_status span span[title$='(Noch 7 Minuten)']:after { content:' 7m'; }
 #listrow_status span span[title$='(Noch 6 Minuten)']:after { content:' 6m'; }
-#listrow_status span span[title$='(Noch 5 Minuten)']:after { content:' 6m'; }
-#listrow_status span span[title$='(Noch 4 Minuten)']:after { content:' 6m'; }
-#listrow_status span span[title$='(Noch 3 Minuten)']:after { content:' 6m'; }
+#listrow_status span span[title$='(Noch 5 Minuten)']:after { content:' 5m'; }
+#listrow_status span span[title$='(Noch 4 Minuten)']:after { content:' 4m'; }
+#listrow_status span span[title$='(Noch 3 Minuten)']:after { content:' 3m'; }
 
 #listrow_status span span[title*='(30 Tage']:after { content:' 30d'; }
 #listrow_status span span[title*='(29 Tage']:after { content:' 29d'; }
@@ -272,6 +272,7 @@
 #listrow_status span span[title*='(3 Stunden']:after { content:' 3h'; }
 #listrow_status span span[title*='(2 Stunden']:after { content:' 2h'; }
 #listrow_status span span[title*='(1 Stunde']:after { content:' 1h'; }
+#listrow_status span span[title$='(60 Minuten)']:after { content:' 60m'; }
 #listrow_status span span[title$='(59 Minuten)']:after { content:' 59m'; }
 #listrow_status span span[title$='(58 Minuten)']:after { content:' 58m'; }
 #listrow_status span span[title$='(57 Minuten)']:after { content:' 57m'; }
@@ -326,9 +327,9 @@
 #listrow_status span span[title$='(8 Minuten)']:after { content:' 8m'; }
 #listrow_status span span[title$='(7 Minuten)']:after { content:' 7m'; }
 #listrow_status span span[title$='(6 Minuten)']:after { content:' 6m'; }
-#listrow_status span span[title$='(5 Minuten)']:after { content:' 6m'; }
-#listrow_status span span[title$='(4 Minuten)']:after { content:' 6m'; }
-#listrow_status span span[title$='(3 Minuten)']:after { content:' 6m'; }
+#listrow_status span span[title$='(5 Minuten)']:after { content:' 5m'; }
+#listrow_status span span[title$='(4 Minuten)']:after { content:' 4m'; }
+#listrow_status span span[title$='(3 Minuten)']:after { content:' 3m'; }
 
 /* Schritte */
 #listrow_status span span[title$='(Noch 150 Schritte)']:after { content: ' 150'; }
