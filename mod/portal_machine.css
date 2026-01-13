@@ -1,5 +1,6 @@
 .frameitembg p.oberirdisch > span.location::after,
-.frameitembg p.apparat > span.location::after {
+.frameitembg p.apparat > span.location::after,
+.frameitembg span.location::after {
 	display: inline-block;
 	background: black;
 	color: var(--blauer_indicator);
@@ -45,6 +46,7 @@
 .frameitembg .apparat > span.location[data-gebiet="Plefir - Das Pilzgebiet"]:after { content: "79 109"; }
 
 /* falls ring des sandsturms verfügbar */
+/*
 .frameitembg span.location[data-gebiet="Mentoran - Bank aller Wesen"]:after{ content: "98 120"; color: lime; }
 .frameitembg span.location[data-gebiet="Latenia - Die Schneeberge"]:after{ content: "98 81"; }
 .frameitembg span.location[data-gebiet="Lardikia - Der karge Berg"]:after{ content: "121 112"; }
@@ -58,3 +60,4 @@
 .frameitembg span.location[data-gebiet="Venost - Die Stadt am Berg"]:after{ content: "58 74"; }
 .frameitembg span.location[data-gebiet="Die Kreideinsel"]:after{ content: "147 121"; }
 .frameitembg span.location[data-gebiet="Elufia - Bergspitze"]:after{ content: "120 70"; }
+*/
