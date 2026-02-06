@@ -90,6 +90,13 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .chattextinspiration b:last-of-type::after { content: " " !important; }
 
 .synergieeffekt { font-size: 13px !important; }
+.synergieeffekt::before,
+.inspirationeffect:not(b)::before { 
+    content: " - ";
+    font-weight: bold;
+}
+
+.inspirationeffect { font-size: var(--chat_font-size) !important; }
 
 .effektgoldmuenzen::before,
 .effektwissen::before,
@@ -138,10 +145,10 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektzeitkontrolle::after,
 .effektvollheilung::after { font-size: var(--chat_font-size); }
 
-.effektgoldmuenzen::after { content: "Goldmünzen"; }
+/*.effektgoldmuenzen::after { content: "Goldmünzen"; }*/
 .effektwissen::after { content: "Lernzeitverkürzung"; }
 .effektzeitkontrolle::after { content: "Zeitkontrolle"; }
-.effektvollheilung::after { content: "Vollheilung"; }
+/*.effektvollheilung::after { content: "Vollheilung"; }*/
 
 .effektchaosbotaniker b:nth-child(3) { font-size: 0px !important; }
 .effektchaosbotaniker b:nth-child(4)::after { content: " " !important; }
