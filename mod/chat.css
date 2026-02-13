@@ -91,47 +91,50 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 
 .synergieeffekt { font-size: 13px !important; }
 
-.effektgoldmuenzen::before,
-.effektwissen::before,
-.effektzeitkontrolle::before,
-.effektvollheilung::before,
 .effektamulettkuenstler::before,
 .effektarchaeologe::before,
 .effektauftragskuenstler::before,
+.effektauftragsmeister::before,
 .effektchaosbotaniker::before,
 .effekteinzigartigerjaeger::before,
-.effektauftragsmeister::before,
 .effektforschungswahn::before,
-.effektgoldrausch::before,
+.effektgoldmuenzen::before,
 .effektgoldraeuber::before,
+.effektgoldrausch::before,
 .effektjaeger::before,
 .effektlebensfeuer::before,
 .effektleichenfledderer::before,
 .effektmeisterderangst::before,
 .effektpflanzengespuer::before,
 .effektphasenenergierausch::before,
-.effektseelensucher::before { font-size: var(--chat_font-size); }
+.effektseelensucher::before,
+.effektvollheilung::before,
+.effektwissen::before,
+.effektzauberoelmagier::before,
+.effektzeitkontrolle::before
+{ font-size: var(--chat_font-size); }
 
-.effektgoldmuenzen::before { content: "Goldinspiration: "; }
-.effektwissen::before { content: "Wissensinspiration: "; }
 .effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
+.effektwissen::before { content: "Wissensinspiration: "; }
 .effektvollheilung::before { content: "Heilungsinspiration: " }
-.effektamulettkuenstler::before { content: "Amulettkünstler: "; }
-.effektauftragskuenstler::before { content: "Auftragskünstler: "; }
-.effektarchaeologe::before { content: "Archäologe: "; }
-.effektchaosbotaniker::before { content: "Chaosbotaniker: "; }
-.effekteinzigartigerjaeger::before { content: "Einzigartiger Jäger: "; }
-.effektauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
-.effektforschungswahn::before { content: "Forschungswahn: "; }
+.effektseelensucher::before { content: "Seelensucher: "; }
+.effektphasenenergierausch::before { content: "Phasenenergierausch: "; }
+.effektpflanzengespuer::before { content: "Pflanzengespür: "; }
+.effektmeisterderangst::before { content: "Meister der Angst: "; }
+.effektleichenfledderer::before { content: "Leichenfledderer: "; }
+.effektlebensfeuer::before { content: "Lebensfeuer: "; }
+.effektjaeger::before { content: "Jäger: "; }
 .effektgoldrausch::before { content: "Goldrausch: "; }
 .effektgoldraeuber::before { content: "Goldräuber: "; }
-.effektjaeger::before { content: "Jäger: "; }
-.effektlebensfeuer::before { content: "Lebensfeuer: "; }
-.effektleichenfledderer::before { content: "Leichenfledderer: "; }
-.effektmeisterderangst::before { content: "Meister der Angst: "; }
-.effektpflanzengespuer::before { content: "Pflanzengespür: "; }
-.effektphasenenergierausch::before { content: "Phasenenergierausch: "; }
-.effektseelensucher::before { content: "Seelensucher: "; }
+.effektgoldmuenzen::before { content: "Goldinspiration: "; }
+.effektforschungswahn::before { content: "Forschungswahn: "; }
+.effekteinzigartigerjaeger::before { content: "Einzigartiger Jäger: "; }
+.effektchaosbotaniker::before { content: "Chaosbotaniker: "; }
+.effektauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
+.effektauftragskuenstler::before { content: "Auftragskünstler: "; }
+.effektarchaeologe::before { content: "Archäologe: "; }
+.effektzauberoelmagier::before { content: "Zauberölmagier: " }
+.effektamulettkuenstler::before { content: "Amulettkünstler: "; }
 
 .effektgoldmuenzen::after,
 .effektwissen::after,
@@ -145,3 +148,23 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 
 .effektchaosbotaniker b:nth-child(3) { font-size: 0px !important; }
 .effektchaosbotaniker b:nth-child(4)::after { content: " " !important; }
+
+/* ITEM-DROP */
+.importantitemdrop {
+	visibility: hidden;
+	font-size: 0px !important;
+}
+
+.importantitemdrop::before {
+	visibility: visible;
+	font-size: 12px !important;
+	content: "Drop: ";
+	color: #a49e9e;
+	font-style: italic;
+}
+
+.importantitemdrop a > b {
+	visibility: visible;
+	font-size: 12px !important;
+	color: var(--link-color);
+}
