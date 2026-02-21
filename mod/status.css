@@ -42,6 +42,7 @@
 #listrow_status span[title^='Blitzschild']:before { content: "⚡ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Phasenüberladung']:before { content: "PÜ |"; }
 #listrow_status span[title^='Phasensicht']:before { content: "PS |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Phasenortung']:before { content: "PO |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Trank der Phasenrisse']:before { content: "TdPr |"; }
 #listrow_status span[title^='versiegender Phasensaft']:before { content: "VPS |"; }
 #listrow_status span[title^='versiegender Phasennektar']:before { content: "VPN |"; }
