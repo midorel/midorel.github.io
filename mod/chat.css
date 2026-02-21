@@ -114,37 +114,37 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektzeitkontrolle::before
 { font-size: var(--chat_font-size); }
 
-.effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
-.effektwissen::before { content: "Wissensinspiration: "; }
-.effektvollheilung::before { content: "Heilungsinspiration: " }
-.effektseelensucher::before { content: "Seelensucher: "; }
-.effektphasenenergierausch::before { content: "Phasenenergierausch: "; }
-.effektpflanzengespuer::before { content: "Pflanzengespür: "; }
-.effektmeisterderangst::before { content: "Meister der Angst: "; }
-.effektleichenfledderer::before { content: "Leichenfledderer: "; }
-.effektlebensfeuer::before { content: "Lebensfeuer: "; }
-.effektjaeger::before { content: "Jäger: "; }
-.effektgoldrausch::before { content: "Goldrausch: "; }
-.effektgoldraeuber::before { content: "Goldräuber: "; }
-.effektgoldmuenzen::before { content: "Goldinspiration: "; }
-.effektforschungswahn::before { content: "Forschungswahn: "; }
-.effekteinzigartigerjaeger::before { content: "Einzigartiger Jäger: "; }
-.effektchaosbotaniker::before { content: "Chaosbotaniker: "; }
-.effektauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
-.effektauftragskuenstler::before { content: "Auftragskünstler: "; }
-.effektarchaeologe::before { content: "Archäologe: "; }
-.effektzauberoelmagier::before { content: "Zauberölmagier: " }
 .effektamulettkuenstler::before { content: "Amulettkünstler: "; }
+.effektarchaeologe::before { content: "Archäologe: "; }
+.effektauftragskuenstler::before { content: "Auftragskünstler: "; }
+.effektauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
+.effektchaosbotaniker::before { content: "Chaosbotaniker: "; }
+.effekteinzigartigerjaeger::before { content: "Einzigartiger Jäger: "; }
+.effektforschungswahn::before { content: "Forschungswahn: "; }
+.effektgoldmuenzen::before { content: "Goldinspiration: "; }
+.effektgoldraeuber::before { content: "Goldräuber: "; }
+.effektgoldrausch::before { content: "Goldrausch: "; }
+.effektjaeger::before { content: "Jäger: "; }
+.effektlebensfeuer::before { content: "Lebensfeuer: "; }
+.effektleichenfledderer::before { content: "Leichenfledderer: "; }
+.effektmeisterderangst::before { content: "Meister der Angst: "; }
+.effektpflanzengespuer::before { content: "Pflanzengespür: "; }
+.effektphasenenergierausch::before { content: "Phasenenergierausch: "; }
+.effektseelensucher::before { content: "Seelensucher: "; }
+.effektvollheilung::before { content: "Heilungsinspiration: " }
+.effektwissen::before { content: "Wissensinspiration: "; }
+.effektzauberoelmagier::before { content: "Zauberölmagier: " }
+.effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
 
 .effektgoldmuenzen::after,
+.effektvollheilung::after,
 .effektwissen::after,
-.effektzeitkontrolle::after,
-.effektvollheilung::after { font-size: var(--chat_font-size); }
+.effektzeitkontrolle::after { font-size: var(--chat_font-size); }
 
 .effektgoldmuenzen::after { content: "Goldmünzen"; }
+.effektvollheilung::after { content: "Vollheilung"; }
 .effektwissen::after { content: "Lernzeitverkürzung"; }
 .effektzeitkontrolle::after { content: "Zeitkontrolle"; }
-.effektvollheilung::after { content: "Vollheilung"; }
 
 .effektchaosbotaniker b:nth-child(3) { font-size: 0px !important; }
 .effektchaosbotaniker b:nth-child(4)::after { content: " " !important; }
@@ -157,7 +157,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 
 .importantitemdrop::before {
 	visibility: visible;
-	font-size: 12px !important;
+	font-size: var(--chat_font-size) !important;
 	content: "Drop: ";
 	color: #a49e9e;
 	font-style: italic;
