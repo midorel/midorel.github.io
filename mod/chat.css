@@ -91,47 +91,46 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 
 .synergieeffekt { font-size: 13px !important; }
 .synergieeffekt::before,
-.inspirationeffect:not(b)::before { 
-    content: " - ";
-    font-weight: bold;
+.inspirationeffect:not(b)::before {
+	content: " - ";
+	font-weight: bold;
 }
 
 .inspirationeffect { font-size: var(--chat_font-size) !important; }
 
-.effektgoldmuenzen::before,
-.effektwissen::before,
-.effektzeitkontrolle::before,
-.effektvollheilung::before,
 .effektamulettkuenstler::before,
 .effektarchaeologe::before,
 .effektauftragskuenstler::before,
+.effektauftragsmeister::before,
 .effektchaosbotaniker::before,
 .effekteinzigartigerjaeger::before,
-.effektauftragsmeister::before,
 .effektforschungswahn::before,
-.effektgoldrausch::before,
+.effektgoldmuenzen::before,
 .effektgoldraeuber::before,
+.effektgoldrausch::before,
 .effektjaeger::before,
 .effektlebensfeuer::before,
 .effektleichenfledderer::before,
 .effektmeisterderangst::before,
 .effektpflanzengespuer::before,
 .effektphasenenergierausch::before,
-.effektseelensucher::before { font-size: var(--chat_font-size); }
+.effektseelensucher::before,
+.effektvollheilung::before,
+.effektwissen::before,
+.effektzauberoelmagier::before,
+.effektzeitkontrolle::before
+{ font-size: var(--chat_font-size); }
 
-.effektgoldmuenzen::before { content: "Goldinspiration: "; }
-.effektwissen::before { content: "Wissensinspiration: "; }
-.effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
-.effektvollheilung::before { content: "Heilungsinspiration: " }
 .effektamulettkuenstler::before { content: "Amulettkünstler: "; }
-.effektauftragskuenstler::before { content: "Auftragskünstler: "; }
 .effektarchaeologe::before { content: "Archäologe: "; }
+.effektauftragskuenstler::before { content: "Auftragskünstler: "; }
+.effektauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
 .effektchaosbotaniker::before { content: "Chaosbotaniker: "; }
 .effekteinzigartigerjaeger::before { content: "Einzigartiger Jäger: "; }
-.effektauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
 .effektforschungswahn::before { content: "Forschungswahn: "; }
-.effektgoldrausch::before { content: "Goldrausch: "; }
+.effektgoldmuenzen::before { content: "Goldinspiration: "; }
 .effektgoldraeuber::before { content: "Goldräuber: "; }
+.effektgoldrausch::before { content: "Goldrausch: "; }
 .effektjaeger::before { content: "Jäger: "; }
 .effektlebensfeuer::before { content: "Lebensfeuer: "; }
 .effektleichenfledderer::before { content: "Leichenfledderer: "; }
@@ -139,16 +138,40 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektpflanzengespuer::before { content: "Pflanzengespür: "; }
 .effektphasenenergierausch::before { content: "Phasenenergierausch: "; }
 .effektseelensucher::before { content: "Seelensucher: "; }
+.effektvollheilung::before { content: "Heilungsinspiration: " }
+.effektwissen::before { content: "Wissensinspiration: "; }
+.effektzauberoelmagier::before { content: "Zauberölmagier: " }
+.effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
 
 .effektgoldmuenzen::after,
+.effektvollheilung::after,
 .effektwissen::after,
-.effektzeitkontrolle::after,
-.effektvollheilung::after { font-size: var(--chat_font-size); }
+.effektzeitkontrolle::after { font-size: var(--chat_font-size); }
 
 /*.effektgoldmuenzen::after { content: "Goldmünzen"; }*/
+/*.effektvollheilung::after { content: "Vollheilung"; }*/
 .effektwissen::after { content: "Lernzeitverkürzung"; }
 .effektzeitkontrolle::after { content: "Zeitkontrolle"; }
-/*.effektvollheilung::after { content: "Vollheilung"; }*/
 
 .effektchaosbotaniker b:nth-child(3) { font-size: 0px !important; }
 .effektchaosbotaniker b:nth-child(4)::after { content: " " !important; }
+
+/* ITEM-DROP */
+.importantitemdrop {
+	visibility: hidden;
+	font-size: 0px !important;
+}
+
+.importantitemdrop::before {
+	visibility: visible;
+	font-size: var(--chat_font-size) !important;
+	content: "Drop: ";
+	color: #a49e9e;
+	font-style: italic;
+}
+
+.importantitemdrop a > b {
+	visibility: visible;
+	font-size: 12px !important;
+	color: var(--link-color);
+}
