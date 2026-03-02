@@ -125,6 +125,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href*="hoehle"]::after,
 .areadescription a[href*="casino2"]::after,
 .areadescription a[href*="betreten"]::after,
+.areadescription a[href*="ship"]::after,
 .areadescription a[href*="rausgehen"]::after,
 .areadescription a[href*="abgeben"]::after, 
 .areadescription a[href*="seilbahn"]::after,
