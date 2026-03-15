@@ -79,6 +79,7 @@
 #listrow_status span[title^='Gefäßgelee']:before { content: "🩸 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Bewusstseinserweiterung']:before { content: "🧠 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Markierung für Wesen mit dem Namen']:before { content: "™ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Sandzone']:before { content: "🏝️ |"; font-size: 8.5px !important; }
 
 /* Phasenzeug */
 #listrow_status span[title*='Phasen'] {color: lightblue; }
