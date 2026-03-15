@@ -77,6 +77,7 @@
 #listrow_status span[title^='Aura der Wut']:before { content: "😡 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Großwildjäger']:before { content: "🐺 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Gefäßgelee']:before { content: "🩸 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Sandzone']:before { content: "🏝️ |"; font-size: 8.5px !important; }
 
 /* Phasenzeug */
 #listrow_status span[title*='Phasen'] {color: lightblue; }
