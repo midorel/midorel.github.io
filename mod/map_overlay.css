@@ -87,7 +87,8 @@
     position: absolute;
 }
 
-#mapx100y94 a::before {
+#mapx100y94 a::before,
+#mapx97y125 a::before {
     content: url(../img/save__gzk_npc.svg);
     position: absolute;
 }
