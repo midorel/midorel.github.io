@@ -45,6 +45,11 @@
 .frameitembg .apparat > span.location[data-gebiet="Pensal - Der verfluchte Wald"]:after { content: "52 112"; }
 .frameitembg .apparat > span.location[data-gebiet="Plefir - Das Pilzgebiet"]:after { content: "79 109"; }
 
+.frameitembg .unterirdisch > span.location[data-gebiet="Der Keller der Post"]:after { content: "-100 -95"; color: lime; }
+.frameitembg .unterirdisch > span.location[data-gebiet="Die Bernsteinhöhle"]:after { content: "-605 -206"; }
+.frameitembg .unterirdisch > span.location[data-gebiet="Terasi - Der Fluss"]:after { content: "72 116"; }
+.frameitembg .unterirdisch > span.location[data-gebiet="Terasi - Der Fluss"]:after { content: "72 116"; }
+
 /* falls ring des sandsturms verfügbar */
 /*
 .frameitembg span.location[data-gebiet="Mentoran - Bank aller Wesen"]:after{ content: "98 120"; color: lime; }
