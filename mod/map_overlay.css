@@ -42,7 +42,7 @@
     position: absolute;
 }
 
-#mapx71y92 a::before,#mapx92y90 a::before,#mapx114y76 a::before,#mapx81y94 a::before,#mapx73y126 a::before,#mapx93y96 a::before,#mapx108y114 a::before,#mapx97y108 a::before,#mapx80y87 a::before,#mapx85y102 a::before,#mapx101y100 a::before,#mapx75y99 a::before,#mapx501y51 a::before,#mapx103y110 a::before,#mapx66y111 a::before, #mapx96y125 a::before {
+#mapx71y92 a::before,#mapx92y90 a::before,#mapx114y76 a::before,#mapx81y94 a::before,#mapx73y126 a::before,#mapx93y96 a::before,#mapx108y114 a::before,#mapx97y108 a::before,#mapx80y87 a::before,#mapx85y102 a::before,#mapx101y100 a::before,#mapx75y99 a::before,#mapx501y51 a::before,#mapx103y110 a::before,#mapx66y111 a::before, #mapx97y125 a::before {
     content: url(../img/U__gzk.svg);
     position: absolute;
 }
@@ -135,5 +135,40 @@
 #mapx89y93 a::before,
 #mapx90y91 a::before {
     content: "🧱";
+    position: absolute;
+}
+
+
+/* zahra */
+#mapx92y125 a::before,
+#mapx93y124 a::before,
+#mapx92y124 a::before,
+#mapx91y124 a::before,
+#mapx90y124 a::before,
+#mapx89y124 a::before,
+#mapx89y123 a::before,
+#mapx90y123 a::before,
+#mapx91y123 a::before,
+#mapx92y123 a::before,
+#mapx93y123 a::before,
+#mapx94y123 a::before,
+#mapx95y123 a::before,
+#mapx94y122 a::before,
+#mapx93y122 a::before,
+#mapx91y122 a::before,
+#mapx90y122 a::before,
+#mapx89y122 a::before,
+#mapx88y122 a::before,
+#mapx89y121 a::before,
+#mapx90y121 a::before,
+#mapx91y121 a::before,
+#mapx92y121 a::before
+{
+    content: url(../img/save_.svg);
+    position: absolute;
+}
+
+#mapx92y122 a::before {
+    content: url(../img/save__npc.svg);
     position: absolute;
 }
