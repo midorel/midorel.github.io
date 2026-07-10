@@ -149,7 +149,6 @@
 #mapx89y123 a::before,
 #mapx90y123 a::before,
 #mapx91y123 a::before,
-#mapx92y123 a::before,
 #mapx93y123 a::before,
 #mapx94y123 a::before,
 #mapx95y123 a::before,
@@ -159,7 +158,6 @@
 #mapx90y122 a::before,
 #mapx89y122 a::before,
 #mapx88y122 a::before,
-#mapx89y121 a::before,
 #mapx90y121 a::before,
 #mapx91y121 a::before,
 #mapx92y121 a::before
@@ -168,7 +166,9 @@
     position: absolute;
 }
 
-#mapx92y122 a::before {
+#mapx92y122 a::before,
+#mapx89y121 a::before,
+#mapx92y123 a::before {
     content: url(../img/save__npc.svg);
     position: absolute;
 }
