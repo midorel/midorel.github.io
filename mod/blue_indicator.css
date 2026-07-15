@@ -29,6 +29,17 @@
 .frameitembg a.location[title="Terasi - Der Fluss"]::after { content: "66 111"; }
 .frameitembg a.location[title="Lodradon - Der organische Turm"]::after { content: "114 76"; }
 .frameitembg a.location[title="Terasi - Der rauschende Fluss"]::after { content: "73 126"; }
+.frameitembg a.location[title="Doma - Ufer der Ankunft"]::after { content: "97 125"; }
+
+
+/* gelber indikator */
+.frameitembg a.location[title="Das Grab von Reikan"]::after { content: "-798 -798"; font-size: 9px !important;}
+.frameitembg a.location[title="Die Kanalisation - Das Sammelbecken"]::after { content: "-785 -786"; font-size: 9px !important;}
+.frameitembg a.location[title="Die Ruine - Steine"]::after { content: "-803 -808"; font-size: 9px !important;}
+.frameitembg a.location[title="Latenia - Die Eishöhle"]::after { content: " -347 -693"; font-size: 9px !important;}
+.frameitembg a.location[title="Der unterirdische Lichtwald"]::after { content: "-599 -449"; font-size: 9px !important;}
+.frameitembg a.location[title="Die alte Mühle"]::after { content: "-823 -778"; font-size: 9px !important;}
+.frameitembg a.location[title="Der organische Turm"]::after { content: "-507 -377"; font-size: 9px !important;}
 
 /* falls goldene flöte verfügbar */
 .frameitembg > p.listrow > a[title="Laree"]::after,
