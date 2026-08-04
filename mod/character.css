@@ -100,11 +100,13 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     position: relative;
 }
 
+/*
 #listrow_special {
     position: absolute;
     right: 12px;
     top: 46px;
 }
+*/
 
 #listrow_special > a#link_special,
 #listrow_special > a#link_tower {
