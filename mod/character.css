@@ -10,7 +10,6 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 
 .frameitembg p.listrow[id^="listrow_"]:not(#listrow_status) {
     white-space: nowrap;
-    overflow: hidden;
     max-width: 260px; }
 
 .frameitembg > .listrow {
@@ -64,7 +63,9 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     font-size: 12px;
     padding-right: 5px;
 }
+
 /* todo */
+/*
 #listrow_char_mission > a:last-of-type::after {
     color: var(--global_font);
     content: attr(title);
@@ -73,6 +74,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     top: 16px;
     right: 2px;
 }
+*/
 
 #listrow_clan { padding-top: 2px; }
 
@@ -98,6 +100,15 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     left: -1008px;
     top: 2px;
     position: relative;
+}
+
+#listrow_special a[href*="action=special"] {
+    vertical-align: center !important;
+}
+
+#listrow_special .directspezilink[href*="special_id="]::before {
+    border-radius: 2px;
+    transform: rotate(90deg);
 }
 
 /*
