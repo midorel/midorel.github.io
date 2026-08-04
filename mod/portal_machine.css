@@ -50,6 +50,19 @@
 .frameitembg .unterirdisch > span.location[data-gebiet="Die Grotte des Todes"]:after { content: "-827 -919"; font-size: 9px !important;}
 .frameitembg .unterirdisch > span.location[data-gebiet="Die vergessene Kathedrale"]:after { content: "-286 -479"; font-size: 9px !important;}
 
+.frameitembg .portalstab > span.location > .cooldownbutton {
+    display: block;
+    margin-bottom: 0px !important;
+}
+
+.frameitembg .portalstab > span.location::after {
+  content: attr(data-gebiet);
+  width: 200px;
+  margin-top: -43px;
+  margin-left: 100px;
+  text-align: left;
+}
+
 /* falls ring des sandsturms verfügbar */
 /*
 .frameitembg span.location[data-gebiet="Mentoran - Bank aller Wesen"]:after{ content: "98 120"; color: lime; }
