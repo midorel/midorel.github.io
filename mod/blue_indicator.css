@@ -40,6 +40,7 @@
 .frameitembg a.location[title="Der unterirdische Lichtwald"]::after { content: "-599 -449"; font-size: 9px !important;}
 .frameitembg a.location[title="Die alte Mühle"]::after { content: "-823 -778"; font-size: 9px !important;}
 .frameitembg a.location[title="Der organische Turm"]::after { content: "-507 -377"; font-size: 9px !important;}
+.frameitembg a.location[title="Himmlischer Pavillon"]::after { content: "-629 -2507"; font-size: 8px !important;}
 
 /* falls goldene flöte verfügbar */
 .frameitembg > p.listrow > a[title="Laree"]::after,
