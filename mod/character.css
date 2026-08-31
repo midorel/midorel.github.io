@@ -17,19 +17,12 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     padding-left:5px;
 }
 
-#listrow_aka_battlep b:first-of-type:not(:last-of-type) {
-    display: inline-block;
-    height: 10px;
-    margin-right: 3px;
-    overflow: hidden;
-    width: 18px;
+#listrow_aka_battlep b {
+    font-size: 0;
 }
-#listrow_aka_battlep b:last-of-type:not(:first-of-type):before {
-    color: #999;
-    content: "KP: ";
+#listrow_aka_battlep b::before {
+    content: "Aka: ";
     font-size: 10px;
-    font-weight: bold;
-    margin-left:7px;
 }
 
 #listrow_char_mission {
