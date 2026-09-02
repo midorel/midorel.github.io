@@ -285,6 +285,7 @@ input[name="motto"] {
 .frameitembg > p.listrow[title*="dunkler"]:after,
 .frameitembg > p.listrow[title*="Serum"]:after,
 .frameitembg > p.listrow[title*="Keuroner"]:after,
+.frameitembg > p.listrow[title*="Quarren"]:after,
 .frameitembg > p.listrow[title*="Taruner"]:after {
     display: block;
     content: " ("attr(title)")";
