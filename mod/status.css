@@ -22,6 +22,8 @@
 #listrow_status span[title^='Verräter']:before { content: "😈 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Stärke +']:before { content: "S+ |"; }
 #listrow_status span[title^='Stärke -']:before { content: "S- |"; }
+#listrow_status span[title^='Intelligenz +']:before { content: "I+ |"; }
+#listrow_status span[title^='Intelligenz -']:before { content: "I- |"; }
 #listrow_status span[title^='Kampfunfähig']:before { content: "KU |"; }
 #listrow_status span[title^='Schutz']:before { content: "🦺 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Vergiftung']:before { content: "☣ |"; font-size: 8.5px !important; }
