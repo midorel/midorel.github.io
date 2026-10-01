@@ -50,11 +50,13 @@
 .frameitembg .unterirdisch > span.location[data-gebiet="Die Grotte des Todes"]:after { content: "-827 -919"; font-size: 9px !important;}
 .frameitembg .unterirdisch > span.location[data-gebiet="Die vergessene Kathedrale"]:after { content: "-286 -479"; font-size: 9px !important;}
 
+.frameitembg .seetangportalstab > span.location > .cooldownbutton,
 .frameitembg .portalstab > span.location > .cooldownbutton {
     display: block;
     margin-bottom: 0px !important;
 }
 
+.frameitembg .seetangportalstab > span.location::after,
 .frameitembg .portalstab > span.location::after {
   content: attr(data-gebiet);
   width: 200px;
