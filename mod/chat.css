@@ -143,6 +143,15 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektzauberoelmagier::before { content: "Zauberölmagier: " }
 .effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
 
+/* Natlawürfel */
+.effektnatlawuerfel::before { content: "Natlawürfel:" !important; }
+.effektnatlawuerfel::after,
+.effektnatlawuerfel b::after,
+.effektnatlawuerfel span.inspirationeffect::before,
+.effektnatlawuerfel span.inspirationeffect::after
+{ content: " " !important; }
+.effektnatlawuerfel b.inspirationeffect::before { content: " - " !important; }
+
 .effektgoldmuenzen::after,
 .effektvollheilung::after,
 .effektwissen::after,
