@@ -118,6 +118,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektvollheilung::before,
 .effektwissen::before,
 .effektzauberoelmagier::before,
+.effektschatzjaeger::before,
 .effektzeitkontrolle::before
 { font-size: var(--chat_font-size); }
 
@@ -141,6 +142,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektvollheilung::before { content: "Heilungsinspiration: " }
 .effektwissen::before { content: "Wissensinspiration: "; }
 .effektzauberoelmagier::before { content: "Zauberölmagier: " }
+.effektschatzjaeger::before { content: "Schatzjäger: "; }
 .effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
 
 /* Natlawürfel */
