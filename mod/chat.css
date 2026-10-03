@@ -89,7 +89,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .chattextinspiration b::after {	content: " - "; }
 .chattextinspiration b:last-of-type::after { content: " " !important; }
 
-.synergieeffekt { font-size: 13px !important; }
+.synergieeffekt { font-size: 0.75rem !important; }
 .synergieeffekt::before,
 .inspirationeffect:not(b)::before {
 	content: " - ";
