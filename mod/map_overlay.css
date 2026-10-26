@@ -196,3 +196,22 @@
     content: url(../img/save_.svg);
     position: absolute;
 }
+
+/* Elyra */
+#mapx62y137 a::before
+{
+    content: url(../img/save__port.svg);
+    position: absolute;
+}
+#mapx63y136 a::before
+{
+    content: url(../img/save__npc.svg);
+    position: absolute;
+}
+#mapx65y134 a::before,
+#mapx70y133 a::before,
+#mapx72y137 a::before
+{
+    content: url(../img/save_.svg);
+    position: absolute;
+}
