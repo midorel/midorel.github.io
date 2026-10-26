@@ -17,7 +17,8 @@
 .frameitembg .oberirdisch > span.location[data-gebiet="Brondor - Der Fluss ins Meer"]:after { content: "129 90"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Die Felseninsel"]:after { content: "144 126"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Dorea - Land der Geysire"]:after { content: "118 124"; }
-.frameitembg .oberirdisch > span.location[data-gebiet="Dranar - Die Tore von Dranar"]:after { content: "58	98"; }
+.frameitembg .oberirdisch > span.location[data-gebiet="Dranar - Die Tore von Dranar"]:after { content: "58 98"; }
+.frameitembg .oberirdisch > span.location[data-gebiet="Elrya - Klippen der Ruhe"]:after { content: "62 137"; color: lime !important; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Ferdolien - Der Park"]:after { content: "106 93";}
 .frameitembg .oberirdisch > span.location[data-gebiet="Kerdis - Der knorrige Baum"]:after { content: "90 115"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Kolun - Die Burg Hulnodar"]:after { content: "62 83";}
@@ -25,15 +26,15 @@
 .frameitembg .oberirdisch > span.location[data-gebiet="Kuridan - Der Wandelfluss"]:after { content: "122 100"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Kuridan - Die Prärie"]:after { content: "115 100"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Lardikia - Der Strand"]:after { content: "122 116"; }
-.frameitembg .oberirdisch > span.location[data-gebiet="Laree - Die Post"]:after { content: "54 76"; color: lime; }
+.frameitembg .oberirdisch > span.location[data-gebiet="Laree - Die Post"]:after { content: "54 76"; color: lime !important; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Linya - Dichter Wald"]:after { content: "135 115"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Nawor - Geröll"]:after { content: "110 107"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Ragnur - Steiler Hang"]:after { content: "96 78"; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Rovonia - Der Seichtwassersumpf"]:after { content: "64 80";}
-.frameitembg .oberirdisch > span.location[data-gebiet="Salthos - Die Weinstraße"]:after { content: "104 132"; color: lime; }
+.frameitembg .oberirdisch > span.location[data-gebiet="Salthos - Die Weinstraße"]:after { content: "104 132"; color: lime !important; }
 .frameitembg .oberirdisch > span.location[data-gebiet="Terasi - Der Fluss"]:after { content: "72 116"; }
-.frameitembg .oberirdisch > span.location[data-gebiet="Torihn - Das Biotop"]:after { content: "121 91" !important; }
-.frameitembg .oberirdisch > span.location[data-gebiet="Wilisien - Das Schneedorf"]:after { content: "111 83"; color: lime; }
+.frameitembg .oberirdisch > span.location[data-gebiet="Torihn - Das Biotop"]:after { content: "121 91"; }
+.frameitembg .oberirdisch > span.location[data-gebiet="Wilisien - Das Schneedorf"]:after { content: "111 83"; color: lime !important; }
 
 .frameitembg .apparat > span.location[data-gebiet="Belron - Der Nebelwald"]:after { content: "50 95"; }
 .frameitembg .apparat > span.location[data-gebiet="Elufia - Moosebene"]:after { content: "125 76"; }

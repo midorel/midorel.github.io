@@ -13,7 +13,7 @@
 
 .frameitembg a.location[title="Konlir - Die immergrünen Wiesen"]::after { content: "101 100"; }
 .frameitembg a.location[title="Anatubien - Der Wald der Akademie"]::after { content: "85 102"; }
-.frameitembg a.location[title="Bank aller Wesen"]::after { content: "92 105"; color: lime; }
+.frameitembg a.location[title="Bank aller Wesen"]::after { content: "92 105"; color: lime !important; }
 .frameitembg a.location[title="Reikan - Die Trockenebene"]::after { content: "97 108"; }
 .frameitembg a.location[title="Das Tal der Ruinen"]::after { content: "93 96";}
 .frameitembg a.location[title="Das vergessene Tal"]::after { content: "81 94"; }
@@ -24,12 +24,13 @@
 .frameitembg a.location[title="Sutranien - Die kühle Ebene"]::after { content: "71 92"; }
 .frameitembg a.location[title="Hewien - Kantige Felsen"]::after { content: "92 90"; }
 .frameitembg a.location[title="Orewu - Der Salzsee"]::after { content: "108 114"; }
-.frameitembg a.location[title="Das Casino von Ferdolien"]::after { content: "100 94"; color: lime; }
+.frameitembg a.location[title="Das Casino von Ferdolien"]::after { content: "100 94"; color: lime !important; }
 .frameitembg a.location[title="Kanobien - Der Wasserfall"]::after { content: "75 99";}
 .frameitembg a.location[title="Terasi - Der Fluss"]::after { content: "66 111"; }
+.frameitembg a.location[title="Limm - Der Farnwald"]::after { content: "57 88"; }
 .frameitembg a.location[title="Lodradon - Der organische Turm"]::after { content: "114 76"; }
 .frameitembg a.location[title="Terasi - Der rauschende Fluss"]::after { content: "73 126"; }
-.frameitembg a.location[title="Doma - Ufer der Ankunft"]::after { content: "97 125"; }
+.frameitembg a.location[title="Doma - Ufer der Ankunft"]::after { content: "97 125"; color: lime !important; }
 
 
 /* gelber indikator */
